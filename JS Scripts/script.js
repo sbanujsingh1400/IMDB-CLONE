@@ -97,11 +97,11 @@ function addBookmark(card, response) {
 
     card.childNodes[1].addEventListener("click", (e) => {
         localStorage.setItem("movie", response.imdbID);
-        window.location.href = '/movie.html', true;
+        window.location.href = './Movie.html';
     })
     card.childNodes[3].addEventListener("click", (e) => {
         localStorage.setItem("movie", response.imdbID);
-        window.location.href = '/movie.html', true;
+        window.location.href = './Movie.html';
     })
 
     //add bookmark click event
