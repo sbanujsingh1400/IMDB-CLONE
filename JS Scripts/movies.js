@@ -64,6 +64,6 @@ function renderCards(response) {
     cont.append(card);
 }
 
-
+//
 //function calling for fetching movie details
 fetchAPI(movie);
